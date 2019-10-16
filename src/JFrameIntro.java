@@ -4,12 +4,30 @@ import javax.swing.JLabel;
 
 public class JFrameIntro extends JFrame {
 
-	public static void act() {
+		private JLabel item1;
 		
+		public JFrameIntro() {
+				
+				super("The title bar");
+				setLayout(new FlowLayout());
+			
+				item1 = new JLabel("This is a sentence.");
+				item1.setToolTipText("This is gona show up on hover ... ");			// it delay a bit, but working fine
+				
+				add(item1);
+
+		}
 		
-		
-		
-	}
+		public static void act() {
+			
+			JFrameIntro bucky = new JFrameIntro();
+			bucky.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+			
+			bucky.setSize(275,180);
+			bucky.setVisible(true);
+			
+		}
+
 
 	
 }	// Java (Beginner) Tutorials : 51 
