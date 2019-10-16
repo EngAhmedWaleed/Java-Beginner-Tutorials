@@ -1,5 +1,3 @@
-package eventHandling;
-
 import java.awt.FlowLayout;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
@@ -9,7 +7,7 @@ import javax.swing.JTextField;
 import javax.swing.JPasswordField;
 import javax.swing.JOptionPane;
 
-public class Tuna extends JFrame {
+public class EventHandling extends JFrame {
 	
 		private JTextField item1 ;
 		private JTextField item2 ;
@@ -17,7 +15,7 @@ public class Tuna extends JFrame {
 		
 		private JPasswordField password ;
 		
-		public Tuna() {
+		public EventHandling() {
 			
 			super("The title");
 			setLayout(new FlowLayout());
@@ -43,16 +41,16 @@ public class Tuna extends JFrame {
 			password.addActionListener(handler);
 			
 		}
-
+	
 		private class Thehandler implements ActionListener {
 			
 				public void actionPerformed(ActionEvent event) {
 					
 							String s = "";
 							
-							// switch statement don't not work for objects
+							// switch statements don't not work for objects
 							
-									 if (event.getSource() == item1) {
+								   if (event.getSource() == item1) {
 										 			s = String.format("field 1: %s", event.getActionCommand());
 							} else if (event.getSource() == item2) {
 													s = String.format("field 2: %s", event.getActionCommand());
@@ -68,4 +66,14 @@ public class Tuna extends JFrame {
 			
 		}
 		
-}
+		public static void act() {
+			
+			EventHandling bucky = new EventHandling();
+			bucky.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+			
+			bucky.setSize(350,100);
+			bucky.setVisible(true);
+			
+		}
+	
+}	// Java (Beginner) Tutorials : 52, 53, 54
