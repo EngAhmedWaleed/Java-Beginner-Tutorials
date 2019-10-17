@@ -5,8 +5,9 @@ public class MainClass {
 		
 		//Intro.act();
 		//JFrameIntro.act();
-		
 		//EventHandling.act();
+		
+		JButtonProgram.act();
 		
 	}
 	
