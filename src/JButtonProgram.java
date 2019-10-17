@@ -13,6 +13,7 @@ public class JButtonProgram extends JFrame{
 	private JButton custom;
 	
 	JButtonProgram(){
+		
 		super("The title");
 		setLayout(new FlowLayout());
 		
