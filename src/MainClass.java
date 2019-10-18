@@ -11,7 +11,10 @@ public class MainClass {
 		
 		//JButtonProgram.act();
 		
-		JCheckBoxProgram.act();
+		//JCheckBoxProgram.act();
+		
+		JRadioButtonProgram.act();
+
 		
 	}
 	
