@@ -5,7 +5,12 @@ import javax.swing.*;
 @SuppressWarnings("serial")
 public class MouseEventsProgram extends JFrame {
 	
+	private JPanel mousePanel;
+	private JLabel statusBar;
 	
+	MouseEventsProgram(){
+		
+	}
 
 	public static void act() {
 		

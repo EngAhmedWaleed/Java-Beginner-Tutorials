@@ -22,6 +22,7 @@ public class MainClass {
 		//MultiSelectionJList.act();
 		
 		MouseEventsProgram.act();
+		
 	}
 	
 }
