@@ -21,14 +21,11 @@ public class JListProgram  extends JFrame {
 		
 		list.addListSelectionListener(
 				
-				new ListSelectionListener() {
-					
-					public void valueChanged(ListSelectionEvent event) {
-						getContentPane().setBackground(colors[list.getSelectedIndex()]);
-					}
-					
+			new ListSelectionListener() {
+				public void valueChanged(ListSelectionEvent event) {
+					getContentPane().setBackground(colors[list.getSelectedIndex()]);
 				}
-				
+			}
 		);
 		
 	}

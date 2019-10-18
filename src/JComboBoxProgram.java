@@ -36,8 +36,8 @@ public class JComboBoxProgram extends JFrame {
 					}
 				}	
 		);
-		
 		add(box);
+		
 		picture = new JLabel(pics[0]);
 		add(picture);
 

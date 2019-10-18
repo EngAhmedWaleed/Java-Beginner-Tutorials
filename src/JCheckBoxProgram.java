@@ -64,4 +64,3 @@ public class JCheckBoxProgram extends JFrame {
 	}
 		
 }	// Java (Beginner) Tutorials : 64, 65
-
