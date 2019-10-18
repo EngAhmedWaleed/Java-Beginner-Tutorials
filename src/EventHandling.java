@@ -52,13 +52,13 @@ public class EventHandling extends JFrame {
 			// switch statements don't not work for objects
 			
 				   if (event.getSource() == item1) {
-						 			s = String.format("field 1: %s", event.getActionCommand());
+				s = String.format("field 1: %s", event.getActionCommand());
 			} else if (event.getSource() == item2) {
-									s = String.format("field 2: %s", event.getActionCommand());
+				s = String.format("field 2: %s", event.getActionCommand());
 			} else if (event.getSource() == item3) {
-									s = String.format("field 3: %s", event.getActionCommand());
+				s = String.format("field 3: %s", event.getActionCommand());
 			} else if (event.getSource() == password) {
-									s = String.format("password : %s", event.getActionCommand());
+				s = String.format("password : %s", event.getActionCommand());
 			}
 					 
 			JOptionPane.showMessageDialog(null, s);

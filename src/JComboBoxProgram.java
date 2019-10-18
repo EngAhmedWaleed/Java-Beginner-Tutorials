@@ -28,13 +28,13 @@ public class JComboBoxProgram extends JFrame {
 		box = new JComboBox<String>(filename);
 		
 		box.addItemListener(
-				// anonymous class that implements ItemListener.
-				new ItemListener() {
-					public void itemStateChanged(ItemEvent event) {
-						if(event.getStateChange()==ItemEvent.SELECTED)
-							picture.setIcon(pics[box.getSelectedIndex()]);
-					}
-				}	
+			// anonymous class that implements ItemListener.
+			new ItemListener() {
+				public void itemStateChanged(ItemEvent event) {
+					if(event.getStateChange()==ItemEvent.SELECTED)
+						picture.setIcon(pics[box.getSelectedIndex()]);
+				}
+			}	
 		);
 		add(box);
 		

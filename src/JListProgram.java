@@ -20,7 +20,6 @@ public class JListProgram  extends JFrame {
 		add(new JScrollPane(list));
 		
 		list.addListSelectionListener(
-				
 			new ListSelectionListener() {
 				public void valueChanged(ListSelectionEvent event) {
 					getContentPane().setBackground(colors[list.getSelectedIndex()]);

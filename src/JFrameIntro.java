@@ -13,7 +13,7 @@ public class JFrameIntro extends JFrame {
 		setLayout(new FlowLayout());
 	
 		item1 = new JLabel("This is a sentence.");
-		item1.setToolTipText("This is gona show up on hover ... ");			// it delay a bit, but it is working fine
+		item1.setToolTipText("This is gona show up on hover ... ");		// it delay a bit, but it is working fine
 		
 		add(item1);
 
