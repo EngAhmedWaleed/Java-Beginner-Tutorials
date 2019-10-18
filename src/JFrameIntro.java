@@ -2,6 +2,7 @@ import java.awt.FlowLayout;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
+@SuppressWarnings("serial")
 public class JFrameIntro extends JFrame {
 
 		private JLabel item1;

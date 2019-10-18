@@ -2,6 +2,7 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
+@SuppressWarnings("serial")
 public class JCheckBoxProgram extends JFrame {
 	
 		private JTextField tf;

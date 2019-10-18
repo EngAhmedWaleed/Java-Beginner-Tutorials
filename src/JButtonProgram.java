@@ -7,6 +7,7 @@ import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 
+@SuppressWarnings("serial")
 public class JButtonProgram extends JFrame{
 	
 	private JButton reg;

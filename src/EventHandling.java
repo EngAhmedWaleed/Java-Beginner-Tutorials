@@ -7,6 +7,7 @@ import javax.swing.JTextField;
 import javax.swing.JPasswordField;
 import javax.swing.JOptionPane;
 
+@SuppressWarnings("serial")
 public class EventHandling extends JFrame {
 	
 		private JTextField item1 ;
