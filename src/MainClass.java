@@ -13,9 +13,15 @@ public class MainClass {
 		
 		//JCheckBoxProgram.act();
 		
-		JRadioButtonProgram.act();
+		//JRadioButtonProgram.act();
 
+		//JComboBoxProgram.act();
 		
+		//JListProgram.act();
+		
+		//MultiSelectionJList.act();
+		
+		MouseEventsProgram.act();
 	}
 	
 }
