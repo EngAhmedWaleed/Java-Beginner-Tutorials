@@ -25,6 +25,8 @@ public class MainClass {
 		
 		//AdapterClass.act();
 		
+		LayoutProgram.act();
+		
 	}
 	
 }
