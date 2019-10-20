@@ -27,7 +27,9 @@ public class MainClass {
 		
 		//LayoutProgram.act();
 		
-		DrawingGraphics.act();
+		//DrawingGraphics.act();
+		
+		JColorChooserProgram.act();
 		
 	}
 	
