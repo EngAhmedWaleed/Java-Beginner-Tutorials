@@ -25,7 +25,9 @@ public class MainClass {
 		
 		//AdapterClass.act();
 		
-		LayoutProgram.act();
+		//LayoutProgram.act();
+		
+		DrawingGraphics.act();
 		
 	}
 	
