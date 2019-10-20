@@ -17,15 +17,15 @@ public class JColorChooserProgram extends JFrame {
 		
 		b = new JButton("Choose a color");
 		b.addActionListener(
-				new ActionListener() {
-					public void actionPerformed(ActionEvent event) {
-						color = JColorChooser.showDialog(null, "Pick your color", color);
-						if (color == null)
-							color = (Color.WHITE);
-						
-						panel.setBackground(color);
-					}
+			new ActionListener() {
+				public void actionPerformed(ActionEvent event) {
+					color = JColorChooser.showDialog(null, "Pick your color", color);
+					if (color == null)
+						color = (Color.WHITE);
+					
+					panel.setBackground(color);
 				}
+			}
 		);
 		
 		add(panel, BorderLayout.CENTER);
