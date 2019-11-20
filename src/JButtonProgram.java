@@ -22,6 +22,7 @@ public class JButtonProgram extends JFrame{
 		add(reg);
 		
 		// 40 x 40 pngs -> put them in bin folder not src (it won't work at least for me)
+		System.out.println(getClass().getResource("b.png"));
 		Icon b = new ImageIcon(getClass().getResource("b.png"));
 		Icon x = new ImageIcon(getClass().getResource("x.png"));
 
