@@ -3,34 +3,34 @@ import javax.swing.*;
 
 @SuppressWarnings("serial")
 public class DrawingGraphics extends JPanel {
-	
+
 	public void paintComponent(Graphics g) {
-		
+
 		super.paintComponent(g);
 		this.setBackground(Color.WHITE);
-		
+
 		g.setColor(Color.BLUE);
 		g.fillRect(25, 25, 100, 30);
-		
+
 		g.setColor(new Color(190, 81, 215));
 		g.fillRect(25, 65, 100, 30);
-		
+
 		g.setColor(Color.RED);
 		g.drawString("this is some text", 25, 120);
-		
+
 	}
-	
+
 	public static void act() {
-		
+
 		JFrame f = new JFrame("the title");
 		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
+
 		DrawingGraphics d = new DrawingGraphics();
 		f.add(d);
-		
-		f.setSize(400,250);
+
+		f.setSize(400, 250);
 		f.setVisible(true);
-		
+
 	}
-	
-}	// Java (Beginner) Tutorials : 84
+
+} // Java (Beginner) Tutorials : 84

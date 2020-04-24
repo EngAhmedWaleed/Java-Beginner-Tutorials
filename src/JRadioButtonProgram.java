@@ -17,24 +17,24 @@ public class JRadioButtonProgram extends JFrame {
 	private JRadioButton boldItalicRB;
 	private ButtonGroup group;
 
-	JRadioButtonProgram(){
-		
+	JRadioButtonProgram() {
+
 		super("the title");
 		setLayout(new FlowLayout());
-		
+
 		tf = new JTextField("I'm awesome and hot", 25);
 		add(tf);
-		
+
 		plainRB = new JRadioButton("plain", true);
 		boldRB = new JRadioButton("bold", false);
 		ItalicRB = new JRadioButton("italic", false);
 		boldItalicRB = new JRadioButton("bold and italic", false);
-		
+
 		add(plainRB);
 		add(boldRB);
 		add(ItalicRB);
 		add(boldItalicRB);
-		
+
 		group = new ButtonGroup();
 		group.add(plainRB);
 		group.add(boldRB);
@@ -54,12 +54,11 @@ public class JRadioButtonProgram extends JFrame {
 		boldItalicRB.addItemListener(new HandlerClass(boldItalicF));
 
 	}
-	
-	
-	private class HandlerClass implements ItemListener{
-		
+
+	private class HandlerClass implements ItemListener {
+
 		private Font font;
-		
+
 		// the font object get variable font
 		public HandlerClass(Font f) {
 			this.font = f;
@@ -67,19 +66,19 @@ public class JRadioButtonProgram extends JFrame {
 
 		// sets the font to the font object that was passed in
 		public void itemStateChanged(ItemEvent event) {
-			tf.setFont(font);			
+			tf.setFont(font);
 		}
-	
+
 	}
-	
+
 	public static void act() {
-		
+
 		JRadioButtonProgram go = new JRadioButtonProgram();
 		go.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
-		go.setSize(300,200);
+
+		go.setSize(300, 200);
 		go.setVisible(true);
-		
+
 	}
-	
-}	// Java (Beginner) Tutorials : 66, 67
+
+} // Java (Beginner) Tutorials : 66, 67
